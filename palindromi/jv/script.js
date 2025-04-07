@@ -19,3 +19,10 @@ if (reversWord === userWord) {
 
 console.log(reversWord);
 console.log(userWord);
+/*
+function sum(num1) {
+  return num1;
+}
+
+console.log(sum(1));
+*/
