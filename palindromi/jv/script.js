@@ -32,3 +32,11 @@ if (wardLine === wardRevers) {
 } else {
   alert(" la parola non è palindroma");
 }
+
+// const nameLine = "giulio";
+
+// for (i = 0; i < nameLine.length; i++) {
+//   const currentward = nameLine[i];
+
+//   console.log(currentward);
+// }
