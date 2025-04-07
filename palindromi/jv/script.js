@@ -5,22 +5,24 @@ const userWord = prompt("inserisci un parola");
 // funzione di reverse tramite ciclo per stabilire se la parola è palindroma attraverso un risultato booleano
 // ciclo per leggere la parola
 function wordLine(nameLine) {
+  let currentWord;
   for (i = 0; i < nameLine.length; i++) {
     const currentWord = nameLine[i];
+    return currentWord;
   }
-  return currentWord;
 }
 const Word = wordLine(userWord);
 console.log(Word);
 
 // ciclo per leggere al contrario la parola
-function wordRevers() {
-  for (i = userWord.length - 1; i >= 0; --i) {
-    const currentword = userWord[i];
+function wordRevers(nameLine) {
+  let currentReverse;
+  for (i = nameLine.length - 1; i >= 0; --i) {
+    const currentReverse = nameLine[i];
+    return currentReverse;
   }
-  return currentword;
 }
-const reversWord = wordRevers();
+const reversWord = wordRevers(userWord);
 console.log(reversWord);
 
 // validazione
