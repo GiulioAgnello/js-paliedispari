@@ -3,8 +3,8 @@ const parDispUser = prompt("pari o dispari ?");
 // l'user sceglie un numero
 const userNumber = parseInt(prompt("scegli un numero da 1 a 5"));
 // variabili per pari e dispari
-const pari = true
-const dispari = folse
+const pari = true;
+
 // funzione per numero randomico pc
 function randomPc(max, min = 1) {
   const randomPcnumber = Math.floor(Math.random() * (max - min)) + min;
@@ -21,23 +21,23 @@ sumNumber = userNumber + pcNumber;
 console.log("somma", sumNumber);
 
 // stabiliamo se pari o dispari
-function ParDisp (Result){
-    (Result % 2 !== 0) = true
+function ParDisp(numero) {
+  let Valuepar = numero % 2 === 0;
+
+  return Valuepar;
 }
 
-const ParDispPC = ParDisp(sumNumber)
-console.log(ParDispPC);
+const ParDispPC = ParDisp(sumNumber);
+console.log(ValueDispar);
 
 // stabiliamo le variabili
 
-function userPar (uservalue ) {(uservalue = "pari") = true };
+// function userPar (uservalue ) {(uservalue = "pari") = true };
 
-// vediamo chi ha vinto 
+// vediamo chi ha vinto
 
-if (ParDisp(sumNumber) === userPar(parDispUser) ){
-    alert("hai vinto")
-
-}
-else{
-    alert("hai perso")
+if (ParDisp(sumNumber) === userPar(parDispUser)) {
+  alert("hai vinto");
+} else {
+  alert("hai perso");
 }
