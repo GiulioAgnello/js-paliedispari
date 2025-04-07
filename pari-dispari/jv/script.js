@@ -25,7 +25,7 @@ const pariPc = sumNumber % 2 === 0;
 
 console.log(pariPc);
 
-const pariUser = "pari" === true;
+const pariUser = parDispUser === "pari";
 
 console.log(pariUser);
 
@@ -34,9 +34,3 @@ if (pariPc === pariUser) {
 } else {
   alert("hai perso");
 }
-
-// if (sumNumber % 2 === 0 : ) {
-//   alert("pari");
-// } else {
-//   alert("dispari");
-// }
