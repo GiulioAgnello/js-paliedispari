@@ -22,10 +22,22 @@ console.log("somma", sumNumber);
 
 // stabiliamo se pari o dispari
 function ParDisp (Result){
-    (Result % 2 === 0) = true;
+    (Result % 2 !== 0) = true
 }
+
+const ParDispPC = ParDisp(sumNumber)
+console.log(ParDispPC);
 
 // stabiliamo le variabili
 
+function userPar (uservalue ) {(uservalue = "pari") = true };
 
+// vediamo chi ha vinto 
 
+if (ParDisp(sumNumber) === userPar(parDispUser) ){
+    alert("hai vinto")
+
+}
+else{
+    alert("hai perso")
+}
