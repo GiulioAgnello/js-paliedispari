@@ -1,6 +1,4 @@
-// creiamo prompt per chiedere parola
-
-// ciclo per leggere al contrario la parola
+// function per leggere parola al contrario
 function wordRevers(nameLine) {
   let currentReverse = "";
   for (i = nameLine.length - 1; i >= 0; --i) {
@@ -8,7 +6,7 @@ function wordRevers(nameLine) {
   }
   return currentReverse;
 }
-
+// creiamo prompt per chiedere parola
 const userWord = prompt("inserisci un parola");
 
 // validazione
