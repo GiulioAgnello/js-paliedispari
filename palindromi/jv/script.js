@@ -24,3 +24,11 @@ function wardRevers() {
 }
 const reversWard = wardRevers();
 console.log(reversWard);
+
+// validazione
+
+if (wardLine === wardRevers) {
+  alert("la parola è palindroma");
+} else {
+  alert(" la parola non è palindroma");
+}
