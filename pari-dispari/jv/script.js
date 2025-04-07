@@ -19,25 +19,24 @@ console.log("user number", userNumber);
 sumNumber = userNumber + pcNumber;
 
 console.log("somma", sumNumber);
+console.log("pari o dispari giocatore =", parDispUser);
 
-// stabiliamo se pari o dispari
-function ParDisp(numero) {
-  let Valuepar = numero % 2 === 0;
+const pariPc = sumNumber % 2 === 0;
 
-  return Valuepar;
-}
+console.log(pariPc);
 
-const ParDispPC = ParDisp(sumNumber);
-console.log(ValueDispar);
+const pariUser = "pari" === true;
 
-// stabiliamo le variabili
+console.log(pariUser);
 
-// function userPar (uservalue ) {(uservalue = "pari") = true };
-
-// vediamo chi ha vinto
-
-if (ParDisp(sumNumber) === userPar(parDispUser)) {
+if (pariPc === pariUser) {
   alert("hai vinto");
 } else {
   alert("hai perso");
 }
+
+// if (sumNumber % 2 === 0 : ) {
+//   alert("pari");
+// } else {
+//   alert("dispari");
+// }
